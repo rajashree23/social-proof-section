@@ -25,11 +25,14 @@ My challenge was to build out this social proof section and get it looking as cl
 ### Screenshot
 
 Desktop view
+
 ![image](https://user-images.githubusercontent.com/33730790/173181921-98b55404-c98d-40b3-98a5-bb01f84e0e01.png)
 
 
 Mobile view
+
 ![image](https://user-images.githubusercontent.com/33730790/173181950-875a2f7d-c91b-4fff-870d-14c55568bf99.png)
+
 ![image](https://user-images.githubusercontent.com/33730790/173181951-5842d623-8fbf-4065-993f-d2998077e922.png)
 
 
