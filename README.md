@@ -63,6 +63,7 @@ My CTA are-
 - Flexbox
 - Grid
 - Getting more comfortable with CSS combinators and pseudo-elements
+- Build the same design using gridd
 
 
 
