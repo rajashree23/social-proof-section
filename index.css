@@ -11,6 +11,9 @@ body {
   background-position: top left, bottom right;
   background-repeat: no-repeat, no-repeat;
 }
+:root{
+  --dark-magenta: hsl(300, 43%, 22%);
+}
 
 main {
   margin-bottom: 8rem;
@@ -26,7 +29,7 @@ main {
 }
 
 .heading h1 {
-  color: hsl(300, 43%, 22%);
+  color: var(--dark-magenta);
   font-weight: 700;
   font-size: 2.5rem;
   text-align: center;
@@ -59,7 +62,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: hsl(300, 43%, 22%);
+  color: var(--dark-magenta);
   font-weight: 700;
   font-size: 1.2rem;
 }
@@ -72,7 +75,7 @@ main {
 }
 
 .customer-testimonials>div {
-  background-color: hsl(300, 43%, 22%);
+  background-color: var(--dark-magenta);
   color: hsl(0, 0%, 100%);
   width: 90%;
   border-radius: 20px;
