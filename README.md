@@ -38,8 +38,8 @@ Mobile view
 
 ### Links
 
-- Solution URL: [https://rajashree23.github.io/social-proof-section/](https://rajashree23.github.io/social-proof-section/)
-- Live Site URL: [https://github.com/rajashree23/social-proof-section](https://github.com/rajashree23/social-proof-section)
+- Solution URL: [https://github.com/rajashree23/social-proof-section](https://github.com/rajashree23/social-proof-section)
+- Live Site URL:[https://rajashree23.github.io/social-proof-section/](https://rajashree23.github.io/social-proof-section/)
 
 ## My process
 
