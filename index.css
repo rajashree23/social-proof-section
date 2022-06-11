@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, no-repeat;
+}
+
+main {
+  margin-bottom: 8rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.heading {
+  padding: 0rem 2rem;
+  margin-top: 5rem;
+}
+
+.heading h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.heading p {
+  color: hsl(303, 10%, 53%);
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.ratings>div {
+  background-color: hsl(300, 24%, 96%);
+  width: 90%;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.5rem;
+  height: 11vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.customer-testimonials {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.customer-testimonials>div {
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  width: 90%;
+  border-radius: 20px;
+  padding: 2.5rem;
+  margin: 0.5rem;
+  font-weight: 400;
+}
+
+.message {
+  line-height: 1.4;
+  font-size: 1.2rem;
+}
+
+.verified-buyer {
+  color: hsl(333, 80%, 67%);
+  font-size: 1rem;
+  /* line-height: 0.5px; */
+  font-weight: 400;
+}
+
+.username {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.user-details {
+  margin: 0 1rem;
+}
+
+.avatar {
+  border-radius: 100%;
+  margin: 0rem -0.5rem;
+  transform: scale(0.8);
+}
+
+@media (min-width: 60rem) {
+  body {
+    background-image: url("./images/bg-pattern-top-desktop.svg"), url("./images/bg-pattern-bottom-desktop.svg");
+  }
+
+  .testimonials-rating {
+    display: flex;
+  }
+
+  .customer-testimonials {
+    flex-direction: row;
+
+  }
+
+  .ratings{
+    margin-top: 7rem;
+  }
+
+  .ratings>div {
+    width: 60%;
+    height: 8vh;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .ratings .rating2 {
+    margin-left: 10rem;
+  }
+
+  .ratings .rating3 {
+    margin-left: 20rem;
+  }
+  .customer-testimonials>div{
+    width: 31%;
+  }
+  .customer-testimonials{
+    justify-content: space-between;
+  }
+  .customer-testimonials .user2{
+    margin-top: 3rem;
+  }
+  .customer-testimonials .user3{
+    margin-top: 6rem;
+  }
+  main{
+    padding: 0rem 11rem;
+  }
+  .heading p, .heading h1{
+    text-align: left;
+  }
+
+  .heading h1{
+    font-size: 3.5rem;
+  }
+  .heading{
+    width: 35%;
+  }
+  .ratings{
+    width: 65%;
+  }
+}
